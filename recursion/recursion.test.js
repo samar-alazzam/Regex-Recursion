@@ -1,4 +1,5 @@
 /* Write a function to do the division operation without using the built-in division*/
+
 let count =0;
 function division(number, dividedBy){
     if( dividedBy == 0 )
@@ -19,6 +20,7 @@ function division(number, dividedBy){
     return count;   
 } 
 
+
 /* Write a function that implement Math.pow(x,n) but using recursion
 Example:
 pow(2,4) = 16
@@ -26,6 +28,7 @@ pow(2,4) = 16
 
 
 function pow(x,n){
+
     if (n==0)
     { 
         return 1 ;
@@ -35,6 +38,7 @@ function pow(x,n){
         return x;
     }
     return x * pow(x , n-1);
+
 }
 
 /* The Fibonacci Series is a numeric series starting with the integers 0 and 1. In this series,
@@ -47,6 +51,7 @@ Write a function that take n as parameter and return the nth element in the Fibo
 Example: n = 4 ==> 3, n= 0 ==> 0, n = 3 ==> 2 */
 
 function fibonacci(n){
+
     if (n == 0 || n==1)
     {
         return n;
@@ -54,6 +59,7 @@ function fibonacci(n){
     else{
     return fibonacci(n-1) + fibonacci (n-2);
     }
+
 }
 
 /* Optional 

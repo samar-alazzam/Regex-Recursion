@@ -6,8 +6,10 @@
 characters (no numbers and symbols) and it should end with capital A else return false */
 
 function capitalA(s){
+
     // Add your logic.
     return;
+
 }
 
 
@@ -15,8 +17,10 @@ function capitalA(s){
 which end with io (example@example.io) */
 
 function ioEmail(email){
+
     // Add your logic.
     return;
+
 }
 
 /* You have a text that contain image names with their extention you need to write a function to 
