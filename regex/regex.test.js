@@ -7,9 +7,9 @@ characters (no numbers and symbols) and it should end with capital A else return
 
 function capitalA(s){
 
-    // Add your logic.
-    return;
+     return /^[a-zA-Z\s]+A$/gm.test(s)
 
+    
 }
 
 
@@ -17,9 +17,7 @@ function capitalA(s){
 which end with io (example@example.io) */
 
 function ioEmail(email){
-
-    // Add your logic.
-    return;
+    return /^[^\W_]+[a-z]+@[a-z]+.io$/mig.test(email)
 
 }
 
